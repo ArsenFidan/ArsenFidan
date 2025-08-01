@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     $(target).slideToggle(function() {
       var isZichtbaar = $(this).is(':visible');
-      $knop.text(isZichtbaar ? 'Verberg tekst' : origineleTekst);
+      $knop.text(origineleTekst);
     });
   });
 });
