@@ -2271,6 +2271,20 @@ input, select, textarea {
   text-justify: inter-word;
 }
 
+.hoofdkop {
+		margin: 0 0 2em 0;
+		color: #black;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 14pt;
+		font-weight: 400;
+		line-height: 1.75em;
+	}
+
+.subkop {
+		color: black;
+		font-weight: 400;
+}
+
 .naviknop{
 		-moz-appearance: none;
 		-webkit-appearance: none;
