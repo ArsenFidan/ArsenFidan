@@ -1,17 +1,4 @@
 $(document).ready(function() {
-  $('.leesverderknop').on('click', function(e) {
-    e.preventDefault();
-
-    var target = $(this).data('target'); 
-    $(target).slideToggle();
-
-    $(this).text(function(i, text){
-      return text === "Lees verder" ? "Verberg tekst" : "Lees verder";
-    });
-  });
-});
-
-$(document).ready(function() {
   $('.leesverderknop2').on('click', function(e) {
     e.preventDefault();
 
